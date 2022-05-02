@@ -1,0 +1,38 @@
+.contenedor-testimonio {
+  width: 1170px;/*Ancho especifico*/
+  height: 368px;/*Altura especifica*/  
+  margin: 10px 10px 50px;/*Margen*/
+  display: flex;
+  align-items: center;/*centrar verticalmente*/
+  justify-content: center;/*centrar horizontalmente*/
+  background-color: #ffffff;/*color de fondo*/
+  box-shadow: 0 3px 13px 1px rgb(0, 0, 0 / 9%);/*sombra*/
+}
+
+.imagen-testimonio{
+  height: 100%;/*cubre todo el alto del contenedor*/
+  width: auto;/*Porque las imagenes tienen las mismas dimensiones*/
+}
+
+.contenedor-texto-testimonio{  
+  text-align: center;/*Texto alineado al centro*/
+  padding: 40px;/*Espacio entre el contenido del elemento y el borde*/
+  font-family: Lato, sans-serif;/*Tipo de letra*/
+  font-weight: 400;/*Grosor de la letra*/
+  line-height: 1.5rem; /*espacio entre lineas, rem multiplica su cantidad por el tamaño actual de la letra*/
+}
+
+.nombre-testimonio{
+  font-size: 1.3rem;/*tamaño de la letra, rem multiplica su cantidad por el tamaño del elemento raiz*/
+}
+
+.cargo-testimonio{
+  font-size: 1.3rem;/*tamaño de la letra, rem multiplica su cantidad por el tamaño del elemento raiz*/ 
+  margin-top: 15px;/*Margen*/
+  padding-bottom: 30px;/*Espacio inferior entre el contenido del elemento y el borde*/
+}
+
+.texto-testimonio{
+  font-size: 1.1rem;/*tamaño de la letra, rem multiplica su cantidad por el tamaño del elemento raiz*/ 
+  text-align: justify;/*el texto ira de izquierda a derecha llenando todo el contenedor*/
+}
