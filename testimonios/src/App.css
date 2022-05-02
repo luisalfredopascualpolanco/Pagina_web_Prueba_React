@@ -1,0 +1,36 @@
+* {
+  margin: 0;/*Margen para reiniciar la pagina*/
+  padding: 0;/*padding para reiniciar la pagina*/
+}
+
+html, 
+body {
+  font-size: 18px;/*Tamaño fijo*/
+  background-color: #f5f6f7;/*color de fondo*/
+}
+
+h1 {
+  max-width: 940px;/*ancho maximo*/
+  font-size: 2.5em;/*tamaño de la letra(relativo al tamaño del contenedor de 10)*/
+  font-family: Lato, sans-serif;/*tipo de letra*/
+  font-weight: 700;/*peso de letra*/
+  line-height: 1.1;/*altura de la linea*/
+  margin: 40px 0;/*margen superior e inferior y derecha e izquierda*/
+}
+
+.App {
+  min-height: 100vh;/*la app tomara minimo el 100% de la pantalla verticalmente(se adapta a la altura del navegador)*/
+  display: flex;
+  flex-wrap: wrap;/*Si un elemento toma todo el ancho del contenedor los demas se ubican en la siguiente linea*/
+  align-items: center;/*centrar verticalmente*/
+  justify-content: center;/*centrar horizontalmente*/
+  text-align: center;/*centrar el texto*/
+}
+
+.contenedor-principal {
+  min-height: 600px;/*altura minima*/
+  display: flex;
+  flex-wrap: wrap;/*Si un elemento toma todo el ancho del contenedor los demas se ubican en la siguiente linea*/
+  align-items: center;/*centrar verticalmente*/
+  justify-content: center;/*centrar horizontalmente*/
+}
